@@ -1,7 +1,7 @@
 public class MyClass {
     public static void main(String args[]) {
         
-        String letter = "kkkklllmmma";
+        String letter = "kkkmmmmnkkkkknnnnooook";
         int num =1;
         int k = 0;
         for(int i=0; i<letter.length();i++)
@@ -14,12 +14,16 @@ public class MyClass {
             {
                 
                 num = num+1;
+                
                
             }
         }
+        if(letter.charAt(i)!=letter.charAt(i+1)){
         System.out.println(letter.charAt(i)+"="+num);
+        }
         
     }
+    // System.out.println(letter.charAt(k)+"="+num);
     
 }
 }
